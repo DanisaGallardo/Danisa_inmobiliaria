@@ -1,0 +1,60 @@
+#{
+   margin:0;
+   padding: 0;
+}
+
+body{
+   height: 100vh;
+   }
+
+header{
+   background-color: aqua;
+   height: 20vh;
+   font-size: 0;
+
+}
+#logo{
+   background-color: blue;
+   width: 20%;   
+   height: 100%;
+   display: inline-block;
+   font-size: 1rem;
+   vertical-align: top;
+}
+nav{
+   background-color: cornflowerblue;
+   width: 60%; 
+   height: 100%; 
+   display:inline-block;
+   font-size: 1rem;
+   vertical-align: center;
+   
+}
+
+nav{
+   text-align: center;
+   }
+
+li{
+   
+   flex-direction: row;
+   margin:50px;
+   padding: 20px;
+   border:1 px solido black;
+   border-radius: 20px;
+}
+a{
+   text-decoration: none;
+}
+/*ESTILOS PRINCIPAL*/
+main {
+   background-color: aquamarine;
+   height: 125vh;
+}
+
+/*ESTILOS FOOTER*/
+footer{
+  
+   height: 10vh;
+}
+
